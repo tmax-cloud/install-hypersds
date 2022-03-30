@@ -5,6 +5,7 @@ hypercloud storage module 설치 manifest와 가이드 문서를 담은 프로�
 ## 시작하기
 
 - [ceph-csi 설치](ceph-csi/README.md)
+- [k8s csi snapshotter 설치](csi-snapshotter/README.md)
 
 ## 구성요소
 

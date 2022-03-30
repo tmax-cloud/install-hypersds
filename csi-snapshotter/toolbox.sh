@@ -3,7 +3,7 @@
 VER=v5.0.1
 
 local_base="manifests"
-cephcsi_base="../ceph-csi/manifests/"
+cephcsi_base="../ceph-csi/manifests"
 remote_base="https://raw.githubusercontent.com/kubernetes-csi/external-snapshotter/${VER}"
 
 crd_yamls=(kustomization snapshot.storage.k8s.io_volumesnapshotclasses snapshot.storage.k8s.io_volumesnapshotcontents snapshot.storage.k8s.io_volumesnapshots)
