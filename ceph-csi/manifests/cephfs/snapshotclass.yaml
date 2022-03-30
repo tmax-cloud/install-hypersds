@@ -20,7 +20,7 @@ parameters:
   # Ensure to create an entry in the configmap named ceph-csi-config, based on
   # csi-config-map-sample.yaml, to accompany the string chosen to
   # represent the Ceph cluster in clusterID below
-  clusterID: <cluster-id>
+  clusterID: 5d01fd52-53fb-11ec-a570-0894ef32cba4
 
   # Prefix to use for naming CephFS snapshots.
   # If omitted, defaults to "csi-snap-".
